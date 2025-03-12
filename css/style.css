@@ -12,6 +12,7 @@ header {
     background: #0077b6;
     color: white;
     padding: 20px;
+    font-family:serif;
 }
 
 h1{
@@ -51,13 +52,16 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
+    position:relative;
+    left: 30px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #0077b6;
     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -68,11 +72,12 @@ main {
     max-width: 800px;
     margin: auto;
     background: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     position: absolute;
     top: 300px;
     left: 350px;
+    font-family:serif;
 }
 
 #space-photo{
@@ -87,7 +92,7 @@ main {
     max-width: 575px;
     margin: auto;
     overflow: hidden;
-    border: 1px solid black;
+    border: 2px solid black;
 } 
 
 .carousel-images {
@@ -137,10 +142,12 @@ section {
 }
 
 h2 {
-    color: #005f8b;
+    color: #0077b6;
     border-bottom: 2px solid #0077b6;
     padding-bottom: 5px;
     font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 p2{
